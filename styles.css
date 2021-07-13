@@ -1,0 +1,120 @@
+/* write your styles here */
+
+.title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.type-of-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-query {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(69, 216, 69);
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table-head-element {
+    text-align: center;
+    width: 100%;
+}
+
+.table-head:nth-child(1) {
+    display: flex;
+}
+
+.table-element-wrapper {
+    display: flex;
+    border: 0.1px solid grey;
+}
+
+.table-element-wrapper:nth-child(even) {
+    background-color: lightgray;
+}
+
+.table-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 0.5px solid grey;
+    border-right: 0.5px solid grey;
+}
+
+.country-button {
+    background-color: rgb(69, 216, 69);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.country-button:active,
+.country-button:focus {
+    outline: none;
+    color: rgb(99, 255, 255);
+}
+
+.country-button::-moz-focus-inner {
+    border: 0;
+}
+
+.country-name {
+    display: flex;
+    justify-content: center;
+}
+
+.area-button {
+    background-color: rgb(69, 216, 69);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.area-button:active,
+.area-button:focus {
+    outline: none;
+    color: rgb(99, 255, 255);
+}
+
+.area-button::-moz-focus-inner {
+    border: 0;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
